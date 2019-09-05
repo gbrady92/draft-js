@@ -209,8 +209,8 @@ class DraftEditorContents extends React.Component<Props> {
       const Component = CustomComponent || DraftEditorBlock;
       let childProps = {
         className,
-        'data-block': true,
-        'data-editor': editorKey,
+        'data-block-mod': true,
+        'data-editor-mod': editorKey,
         'data-offset-key': offsetKey,
         key,
       };
